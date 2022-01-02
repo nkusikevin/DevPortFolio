@@ -119,7 +119,7 @@ html {
   overflow-y: auto;
   scroll-behavior: smooth; }
 
-body {
+.body {
   font-size: var(--font-size-b1);
   line-height: var(--line-height-b1);
   -webkit-font-smoothing: antialiased;
@@ -128,13 +128,13 @@ body {
   color: var(--color-body);
   font-weight: var(--p-regular); }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    body {
+    .body {
       overflow: hidden; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
+    .body {
       overflow: hidden; } }
   @media only screen and (max-width: 767px) {
-    body {
+    .body {
       overflow: hidden; } }
 
 h1,
@@ -7842,7 +7842,7 @@ xclip
 /*---------------------------
     Header Area Styles 
 -----------------------------*/
-body.template-color-1 {
+.template-color-1 {
   background-color: #212428; }
 
 .nav-pills .nav-link.active,
@@ -9698,7 +9698,7 @@ figcaption {
   right: 5px; }
 
 /* home vedio */
-.home-vedio body {
+.home-vedio .body {
   background: #222; }
 
 .home-vedio .video-play-button {
@@ -10803,7 +10803,8 @@ div#featured-project-carousel {
     border-radius: 10px;
     padding: 3px;
     background: #212428;
-    box-shadow: inset 8px 8px 16px #00000075,  inset -8px -8px 16px #383e4575; }
+    box-shadow: inset 8px 8px 16px #00000075, 
+ inset -8px -8px 16px #383e4575; }
     .progress-charts .progress .progress-bar {
       overflow: visible;
       position: relative;
