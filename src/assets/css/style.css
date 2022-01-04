@@ -9447,7 +9447,7 @@ figcaption {
               top: 37%;
               left: 50%;
               transform: translate(-50%, -50%); }
-            /* .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .user::before {
+            .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .user::before {
               content: '';
               position: absolute;
               transition: var(--transition);
@@ -9458,7 +9458,7 @@ figcaption {
               left: 0;
               background: var(--color-primary);
               opacity: .7;
-              z-index: -1; } */
+              z-index: -1; }
             /* .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .user::after {
               content: '';
               position: absolute;
