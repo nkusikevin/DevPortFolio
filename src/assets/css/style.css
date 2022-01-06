@@ -9447,31 +9447,6 @@ figcaption {
               top: 37%;
               left: 50%;
               transform: translate(-50%, -50%); }
-            .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .user::before {
-              content: '';
-              position: absolute;
-              transition: var(--transition);
-              width: 40px;
-              height: 40px;
-              border-radius: 50%;
-              top: 0;
-              left: 0;
-              background: var(--color-primary);
-              opacity: .7;
-              z-index: -1; } */
-            /* .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .user::after {
-              content: '';
-              position: absolute;
-              transition: var(--transition);
-              width: 60px;
-              height: 60px;
-              border-radius: 50%;
-              top: 50%;
-              left: 50%;
-              background: var(--color-primary);
-              opacity: .2;
-              z-index: -2;
-              transform: translate(-50%, -50%); }
           .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top .user-info-header .title {
             color: #ffffff;
             font-weight: 700;
